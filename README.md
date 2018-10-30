@@ -3,5 +3,5 @@
 ## algorithm
 
 |#|Tag|Title|Solution|
-|:---:|:---|:---|
-|00|Introduction|title|solution|
+|:---:|:---:|:---|:---|
+|00|Introduction|title|Solution|
