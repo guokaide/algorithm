@@ -9,5 +9,5 @@
 ## Algorithms
 
 |#|Tag|Title|Solution|
-|:---:|:---:|:---|:---|
-|00|Introduction|title|Solution|
+|:---:|:---:|:---|
+|001|[泛型动态数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)|Java|
