@@ -10,4 +10,4 @@
 
 |#|Tag|Title|Solution|
 |:---:|:---:|:---|:---|
-|001|Array||[泛型动态数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)|Java|
+|001|Array|[泛型动态数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)|Java|
