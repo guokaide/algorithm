@@ -123,7 +123,93 @@
                throw new IllegalArgumentException("Add failed! Require index >=0 and index <= size.");
            }
        }
+       
+       private void checkIndexForRemove(int index) {
+           if (index < 0 || index >= size) {
+               throw new IllegalArgumentException("Remove failed! Require index >= 0 and index < size.");
+           }
+       }
    }
    
    ```
 
+2. 单链表API:
+
+   ```java
+   package linkedlist;
+   
+   /**
+    * 1）单链表的插入、删除、查找操作；
+    * 2）链表中存储的是int类型的数据；
+    *
+    */
+   public class SinglyLinkedList {
+   
+     private Node head = null;
+   
+     public Node findByValue(int value) {
+   
+     }
+   
+     public Node findByIndex(int index) {
+   
+     }
+   
+     public void insertToHead(int value) {
+   
+     }
+   
+     public void insertToHead(Node newNode) {
+   
+     }
+   
+     public void insertAfter(Node p, int value) {
+   
+     }
+   
+     public void insertAfter(Node p, Node newNode) {
+   
+     }
+   
+     public void insertBefore(Node p, int value) {
+   
+     }
+   
+     public void insertBefore(Node p, Node newNode) {
+       
+     }
+   
+     public void deleteByNode(Node p) {
+       
+     }
+   
+     public void deleteByValue(int value) {
+       
+     }
+   
+     public void printAll() {
+       
+     }
+   
+     public static Node createNode(int value) {
+       return new Node(value, null);
+     }
+   
+     public static class Node {
+       private int data;
+       private Node next;
+   
+       public Node(int data, Node next) {
+         this.data = data;
+         this.next = next;
+       }
+   
+       public int getData() {
+         return data;
+       }
+     }
+   
+   }
+   ```
+
+   
