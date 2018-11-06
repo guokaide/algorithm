@@ -12,7 +12,7 @@
 
 4. [20181111][[Solution](https://github.com/guokaide/leetcode/tree/master/algorithms/src/reverselinkedlist_206)][206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
-5. [20181113][Solution][LRU Cache](https://leetcode.com/problems/lru-cache/description/)
+5. [20181113][Solution][146.LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 
 ## Algorithms
 
