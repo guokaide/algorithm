@@ -10,6 +10,10 @@
 
 3. [20181109][Solution]请谈谈链表的特点，并实现单链表的插入、删除以及查找操作。查看[单链表API](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)。
 
+4. [20181111][[Solution](https://github.com/guokaide/leetcode/tree/master/algorithms/src/reverselinkedlist_206)][206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+
+5. [20181113][Solution][LRU Cache](https://leetcode.com/problems/lru-cache/description/)
+
 ## Algorithms
 
 |#|Tag|Title|Solution|
