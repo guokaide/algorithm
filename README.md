@@ -26,7 +26,7 @@
 #### 6. [Solution][链表]
 [146.LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 
-#### 7. [Solution][二分查找][数据]
+#### 7. [[Solution](https://github.com/guokaide/algorithm/blob/master/summary/summary.md#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)][二分查找][数据]
 假设我们有 1000 万个整数数据，每个数据占 8 个字节，如何设计数据结构和算法，快速判断某个整数是否出现在这 1000 万数据中？ 我们希望这个功能不要占用太多的内存空间，最多不要超过 100MB，你会怎么做呢？
 
 
