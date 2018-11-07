@@ -7,7 +7,7 @@ public class BinarySearch {
         int hi = array.length-1; // 始终在[lo, hi]范围内查找target
 
         while (lo <= hi) {
-            int mid = lo + (hi - lo) >> 1;
+            int mid = lo + ((hi - lo) >> 1);
 
             if (array[mid] >  target) {
                 hi = mid - 1;
@@ -21,4 +21,22 @@ public class BinarySearch {
         return -1;
     }
 
+    public static int binarySearchRecur(int[] array, int target) {
+        return bs(array, target, 0, array.length-1);
+    }
+
+    private static int bs(int[] array, int target, int lo, int hi) {
+        if (lo <= hi) {
+            int mid = lo + ((hi - lo) >> 1);
+            if (array[mid] > target) {
+                return bs(array, target, lo, mid-1);
+            } else if (array[mid] < target) {
+                return bs(array, target, mid+1, hi);
+            } else {
+                return mid;
+            }
+        }
+
+        return -1;
+    }
 }
