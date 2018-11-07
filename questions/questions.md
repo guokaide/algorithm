@@ -1,6 +1,6 @@
 # Questions
 
-1. 泛型动态数组API：
+## 1.泛型动态数组API：
 
    ```Java
    package array;
@@ -133,7 +133,7 @@
    
    ```
 
-4. 单链表API:
+## 4.单链表API:
 
    ```java
    package linkedlist;
