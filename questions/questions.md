@@ -133,7 +133,7 @@
    
    ```
 
-2. 单链表API:
+4. 单链表API:
 
    ```java
    package linkedlist;
