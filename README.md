@@ -10,7 +10,7 @@
 #### 2. [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)][二分查找]
 请实现正确的二分查找算法（递归与非递归），并分析其时间复杂度(<a href="http://www.codecogs.com/eqnedit.php?latex=O(nlogn)" target="_blank"><img src="http://latex.codecogs.com/gif.latex?O(nlogn)" title="O(nlogn)" /></a>)。
 
-#### 3. [Solution][二分查找变形问题]
+#### 3. [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)][二分查找变形问题]
 给定一个有序数组，
 * （1）查找第一个值等于给定值的元素
 * （2）查找最后一个值等于给定值的元素
@@ -36,4 +36,8 @@
 |:---:|:---:|:---|:---|
 |001|Array|[泛型动态数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/GenericArray.java)|
 |002|Array|二分查找|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)|
-|003|Array|二分查找变形问题|Java|
+|003|Array|二分查找变形问题|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)|
+|004|Array|二分查找相关问题测试|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)|
+
+## Appendix
+#### 1. [代码测试示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
