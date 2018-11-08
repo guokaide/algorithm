@@ -35,8 +35,8 @@
 |#|Tag|Title|Solution|
 |:---:|:---:|:---|:---|
 |001|Array|[泛型动态数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/GenericArray.java)|
-|002|Array|二分查找|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)|
-|003|Array|二分查找变形问题|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)|
+|002|Array|[二分查找](https://github.com/guokaide/algorithm/blob/master/README.md#2-solution%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)|
+|003|Array|[二分查找变形问题](https://github.com/guokaide/algorithm/blob/master/README.md#3-solution%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E5%8F%98%E5%BD%A2%E9%97%AE%E9%A2%98)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)|
 |004|Array|二分查找相关问题测试|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)|
 
 ## Appendix
