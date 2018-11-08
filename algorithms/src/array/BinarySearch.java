@@ -4,6 +4,8 @@ public class BinarySearch {
     // 最简单的二分查找算法：针对有序无重复元素数组
     // 迭代
     public static int binarySearch(int[] array, int target) {
+        if (array == null) return -1;
+
         int lo = 0;
         int hi = array.length-1; // 始终在[lo, hi]范围内查找target
 
@@ -24,6 +26,7 @@ public class BinarySearch {
 
     // 递归
     public static int binarySearchRecur(int[] array, int target) {
+        if (array == null) return -1;
         return bs(array, target, 0, array.length-1);
     }
 
