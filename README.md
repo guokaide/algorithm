@@ -29,7 +29,7 @@
 #### 7. [[Solution](https://github.com/guokaide/algorithm/blob/master/summary/summary.md#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)][数据结构设计与算法]
 假设我们有 1000 万个整数数据，每个数据占 8 个字节，如何设计数据结构和算法，快速判断某个整数是否出现在这 1000 万数据中？ 我们希望这个功能不要占用太多的内存空间，最多不要超过 100MB，你会怎么做呢？
 
-#### 8. [Solution][数组]
+#### 8.[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/MinNumberInRotatedArray.java)][数组]
 数组的旋转：将一个数组最开始的若干个元素搬到数组的末尾，即为数组的旋转。输入一个递增排序的数组的一个旋转，数组旋转数组的最小值。例如，数组{3,4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值为1。
 
 
