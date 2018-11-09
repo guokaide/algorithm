@@ -43,7 +43,7 @@
 |004|Array|二分查找相关问题测试|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)|
 
 ## Appendix
-#### 1. [代码测试示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
+#### 1. 如何进行代码测试？[示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
 
 ## 欢迎大家关注我的公众号： 【算法修炼笔记】
 
