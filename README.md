@@ -44,3 +44,10 @@
 
 ## Appendix
 #### 1. [代码测试示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
+
+## 欢迎大家关注我的公众号： 【算法修炼笔记】
+
+主要分享校招笔试面试经验、数据结构与算法、计算机网络、操作系统、数据库以及法律知识等，完成从码农到工程师的进阶之路~
+
+![algo](https://github.com/guokaide/algorithm/blob/master/summary/algo.jpg)
+
