@@ -143,7 +143,7 @@
     * 2）链表中存储的是int类型的数据；
     *
     */
-   public class SinglyLinkedList {
+   public class SingleLinkedList {
    
      private Node head = null;
    
