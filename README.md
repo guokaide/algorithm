@@ -4,7 +4,7 @@
 
 ## Questions
 
-#### 1. [[Solution](https://github.com/guokaide/algorithm/blob/master/summary/summary.md#%E6%95%B0%E7%BB%84)][数组]
+#### 1. [[Solution1](https://github.com/guokaide/algorithm/blob/master/summary/summary.md#%E6%95%B0%E7%BB%84)][[Souluiton2](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)][数组]
 请谈谈数组的特点，并且实现泛型动态数组（即Vector in C++ or ArrayList in Java）的插入、删除以及查找操作，比较原生数组与泛型动态数组的区别。查看[泛型动态数组API](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1%E6%B3%9B%E5%9E%8B%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84api)。
 
 #### 2. [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)][二分查找]
@@ -17,11 +17,12 @@
 * （3）查找第一个大于等于给定值的元素
 * （4）查找最后一个小于等于给定值的元素
 
-#### 4. [Solution][链表]
+#### 4. [Solution1][Solution2][链表]
 请谈谈链表的特点，并实现单链表的基本操作：插入、删除以及查找操作。查看[单链表API](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4%E5%8D%95%E9%93%BE%E8%A1%A8api)。
 
-#### 5. [[Solution](https://github.com/guokaide/leetcode/tree/master/algorithms/src/reverselinkedlist_206)][链表]
-[206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+#### 5. [[Solution1](https://github.com/guokaide/leetcode/tree/master/algorithms/src/reverselinkedlist_206)] [Solution2][链表]
+* (1) [206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+* (2) 单链表中间节点问题：给定一个单链表，请找到其中间节点。例如：1->2->3, 中间节点为2; 1->2->3->4, 中间节点为2。
 
 #### 6. [Solution][链表]
 [146.LRU Cache](https://leetcode.com/problems/lru-cache/description/)
@@ -31,8 +32,6 @@
 
 #### 8.[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/MinNumberInRotatedArray.java)][数组]
 数组的旋转：将一个数组最开始的若干个元素搬到数组的末尾，即为数组的旋转。输入一个递增排序的数组的一个旋转，数组旋转数组的最小值。例如，数组{3,4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值为1。要求时间复杂度为O(logn)。
-
-
 
 #### 9. [Solution] [链表]
 [约瑟夫问题](https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%E6%96%AF%E9%97%AE%E9%A2%98)
