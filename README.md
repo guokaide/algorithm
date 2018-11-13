@@ -18,7 +18,7 @@
 * （4）查找最后一个小于等于给定值的元素
 
 #### 4. [Solution][链表]
-请谈谈链表的特点，并实现单链表的插入、删除以及查找操作。查看[单链表API](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4%E5%8D%95%E9%93%BE%E8%A1%A8api)。
+请谈谈链表的特点，并实现单链表的基本操作：插入、删除以及查找操作。查看[单链表API](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4%E5%8D%95%E9%93%BE%E8%A1%A8api)。
 
 #### 5. [[Solution](https://github.com/guokaide/leetcode/tree/master/algorithms/src/reverselinkedlist_206)][链表]
 [206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
