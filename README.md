@@ -4,7 +4,7 @@
 
 ## Questions
 
-#### 1. [[Solution1](https://github.com/guokaide/algorithm/blob/master/summary/summary.md#%E6%95%B0%E7%BB%84)][[Souluiton2](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)][数组]
+#### 1. [[Solution1](https://github.com/guokaide/algorithm/blob/master/summary/summary.md#%E6%95%B0%E7%BB%84)][[Souluiton2](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/GenericArray.java)][数组]
 请谈谈数组的特点，并且实现泛型动态数组（即Vector in C++ or ArrayList in Java）的插入、删除以及查找操作，比较原生数组与泛型动态数组的区别。查看[泛型动态数组API](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1%E6%B3%9B%E5%9E%8B%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84api)。
 
 #### 2. [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)][二分查找]
