@@ -33,8 +33,9 @@
 #### 8. [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/MinNumberInRotatedArray.java)][数组]
 数组的旋转：将一个数组最开始的若干个元素搬到数组的末尾，即为数组的旋转。输入一个递增排序的数组的一个旋转，数组旋转数组的最小值。例如，数组{3,4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值为1。要求时间复杂度为O(logn)。
 
-#### 9. [Solution] [链表]
-[约瑟夫问题](https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%E6%96%AF%E9%97%AE%E9%A2%98)
+#### 9. [Solution1][Solution2][链表]
+* (1) [约瑟夫问题](https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%E6%96%AF%E9%97%AE%E9%A2%98)
+* (2) 如果一个字符串是通过单链表来存储的，该如何来判断是一个回文串呢？其时间复杂度和空间复杂度是多少？
 
 
 
