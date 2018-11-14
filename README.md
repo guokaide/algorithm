@@ -4,7 +4,12 @@
 
 ## Introduction
 
-点击此处，了解算法练级计划：[算法练级计划](https://mp.weixin.qq.com/s/6vuaECCmrxrchr5Hc11S5w)
+* 了解算法练级计划：[算法练级计划](https://mp.weixin.qq.com/s/6vuaECCmrxrchr5Hc11S5w)
+
+* 在开启算法练级计划之前，需要同学们了解至少一门编程语言，我在这里推荐Java语言，Java学习参见：[Java练级攻略](https://mp.weixin.qq.com/s/i-j27vWXPS4kGmxO7i9p9w)
+
+* 准备校招面试时，参见校招攻略：[2019秋招经验谈](https://mp.weixin.qq.com/s/iVHSbojhMSIL37K-UbM41A)
+
 
 ## Questions
 
