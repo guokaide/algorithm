@@ -2,6 +2,10 @@
 
 > **既然终要承受痛苦，那么尝试思考的痛总归比承受学习的苦更有意义。**
 
+## Introduction
+
+点击此处，了解算法练级计划：[算法练级计划](https://mp.weixin.qq.com/s/6vuaECCmrxrchr5Hc11S5w)
+
 ## Questions
 
 #### 1. [[Solution1](https://github.com/guokaide/algorithm/blob/master/summary/summary.md#%E6%95%B0%E7%BB%84)][[Souluiton2](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/GenericArray.java)][数组]
