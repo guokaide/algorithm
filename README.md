@@ -1,4 +1,4 @@
-# Algorithm
+# [算法练级计划](https://mp.weixin.qq.com/s/6vuaECCmrxrchr5Hc11S5w)
 
 > **既然终要承受痛苦，那么尝试思考的痛总归比承受学习的苦更有意义。**
 
