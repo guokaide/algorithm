@@ -162,6 +162,14 @@
      public void insertToHead(Node newNode) {
    
      }
+       
+     public void insertToTail(int value) {
+           
+     }
+       
+     public void insertToTail(Node newNode) {
+           
+     }
    
      public void insertAfter(Node p, int value) {
    
