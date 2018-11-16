@@ -243,7 +243,7 @@ package array;
 
    ## 5.Reverse Linked List
 
-[[Solution](https://leetcode.com/problems/reverse-linked-list/description/)][206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+[[Solution](https://github.com/guokaide/leetcode/tree/master/algorithms/src/reverselinkedlist_206)][206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
 
 
