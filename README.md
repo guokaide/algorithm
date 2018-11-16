@@ -18,32 +18,19 @@
 * **不断更新中**...
 
 
-|#|Title|
-|:---:|:---|
-|001|[数组与动态泛型数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1%E6%95%B0%E7%BB%84%E4%B8%8E%E6%B3%9B%E5%9E%8B%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84)|
-|002|[二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)|
-|003|[二分查找算法变形问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%E5%8F%98%E5%BD%A2%E9%97%AE%E9%A2%98)|
-|004|[数组与链表](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8)|
-|005|[Reverse Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#5reverse-linked-list)|
-|006|[单链表中间节点问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#6%E5%8D%95%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9%E9%97%AE%E9%A2%98)|
-|007|[LRU Cache](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#7-lru-cache)|
-|008|[1000万整数中查找某个数](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#81000%E4%B8%87%E6%95%B4%E6%95%B0%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E6%95%B0)|
-|009|[旋转数组中的最小值](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#9%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC)|
-|010|[约瑟夫问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#10-%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98)|
-|011|[回文串（基于链表）](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#11%E5%9B%9E%E6%96%87%E4%B8%B2%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8)|
-
-
-## Algorithms
-
-|#|Tag|Title|Solution|
-|:---:|:---:|:---|:---|
-|001|Array|[泛型动态数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/GenericArray.java)|
-|002|Array|[二分查找](https://github.com/guokaide/algorithm/blob/master/README.md#2-solution%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)|
-|003|Array|[二分查找变形问题](https://github.com/guokaide/algorithm/blob/master/README.md#3-solution%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E5%8F%98%E5%BD%A2%E9%97%AE%E9%A2%98)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)|
-|004|Array|二分查找相关问题测试|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)|
-|005|Linked List|[单链表的基本操作](https://github.com/guokaide/algorithm#4-solution1solution2%E9%93%BE%E8%A1%A8)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/linkedlist/SingleLinkedList.java)|
-|006|Linked List|[Reversed Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[Java](https://leetcode.com/problems/reverse-linked-list/description/)|
-|007|Linked List|[单链表中间节点问题](https://github.com/guokaide/algorithm#5-solution1solution2%E9%93%BE%E8%A1%A8)|[Java](https://github.com/guokaide/algorithm/blob/master/algorithms/src/linkedlist/FindMidNode.java)|
+|#|Title|Tag|
+|:---:|:---|:---|
+|001|[数组与动态泛型数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1%E6%95%B0%E7%BB%84%E4%B8%8E%E6%B3%9B%E5%9E%8B%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84)|Array|
+|002|[二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)|Binary Search|
+|003|[二分查找算法变形问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%E5%8F%98%E5%BD%A2%E9%97%AE%E9%A2%98)|Binary Search|
+|004|[数组与链表](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8)|Linked List|
+|005|[Reverse Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#5reverse-linked-list)|Linked List|
+|006|[单链表中间节点问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#6%E5%8D%95%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9%E9%97%AE%E9%A2%98)|Linked List|
+|007|[LRU Cache](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#7-lru-cache)|Linked List|
+|008|[1000万整数中查找某个数](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#81000%E4%B8%87%E6%95%B4%E6%95%B0%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E6%95%B0)|Binary Search|
+|009|[旋转数组中的最小值](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#9%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC)|Array|
+|010|[约瑟夫问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#10-%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98)|Linked List|
+|011|[回文串（基于链表）](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#11%E5%9B%9E%E6%96%87%E4%B8%B2%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8)|Linked List|
 
 
 ## Appendix
