@@ -260,8 +260,9 @@ package array;
 
 
 ## 8.1000万整数中查找某个数
-[[Solution](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#81000%E4%B8%87%E6%95%B4%E6%95%B0%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E6%95%B0)](https://github.com/guokaide/algorithm/blob/master/summary/summary.md#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)]假设我们有 1000 万个整数数据，每个数据占 8 个字节，如何设计数据结构和算法，快速判断某个整数是否出现在这 1000 万数据中？ 我们希望这个功能不要占用太多的内存空间，最多不要超过 100MB，你会怎么做呢？
+[[Solution](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#81000%E4%B8%87%E6%95%B4%E6%95%B0%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E6%95%B0)]假设我们有 1000 万个整数数据，每个数据占 8 个字节，如何设计数据结构和算法，快速判断某个整数是否出现在这 1000 万数据中？ 我们希望这个功能不要占用太多的内存空间，最多不要超过 100MB，你会怎么做呢？
 
+[**Solution**]:
 
 * 1000 * 10^4 * 8 / 10^6 = 80MB，可以使用数组存储80MB的整数，然后排序，使用二分查找取得某个数据。
 * 大部分情况下，使用二分查找可以解决的问题，散列表和二叉树也可以解决，那么是否可以用散列表或者二叉树呢？答案是否定的。因为散列表和二叉树都需要额外的存储，100MB必然不够。
