@@ -1,9 +1,10 @@
 # Questions
 
-## 1.泛型动态数组API：
+## 1. 泛型动态数组
+请谈谈数组的特点，并且实现泛型动态数组（即Vector in C++ or ArrayList in Java）的插入、删除以及查找操作，比较原生数组与泛型动态数组的区别。查看泛型动态数组API
 
-   ```Java
-   package array;
+```java
+package array;
    
    /**
     * 泛型动态数组
@@ -131,7 +132,9 @@
        }
    }
    
-   ```
+```
+
+
 
 ## 4.单链表API:
 
