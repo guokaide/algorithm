@@ -152,7 +152,7 @@ package array;
 
 
 
-## 4.数组与链表
+## 4.链表与数组
 
 [[Solution1](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md)][[Solution2](https://github.com/guokaide/algorithm/blob/master/algorithms/src/linkedlist/SingleLinkedList.java)]请谈谈链表的特点，比较数组与链表的不同，并实现单链表的基本操作：插入、删除以及查找操作。查看单链表API：
 
@@ -253,19 +253,15 @@ package array;
 
 
 
-## 7. LRU Cache
+## 7.LRU Cache
 
 [Solution][146.LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 
 
 
 ## 8.1000万整数中查找某个数
-[[Solution](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#81000%E4%B8%87%E6%95%B4%E6%95%B0%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E6%95%B0)]假设我们有 1000 万个整数数据，每个数据占 8 个字节，如何设计数据结构和算法，快速判断某个整数是否出现在这 1000 万数据中？ 我们希望这个功能不要占用太多的内存空间，最多不要超过 100MB，你会怎么做呢？
+[[Solution](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E9%97%AE%E9%A2%98)]假设我们有 1000 万个整数数据，每个数据占 8 个字节，如何设计数据结构和算法，快速判断某个整数是否出现在这 1000 万数据中？ 我们希望这个功能不要占用太多的内存空间，最多不要超过 100MB，你会怎么做呢？
 
-[**Solution**]:
-
-* 1000 * 10^4 * 8 / 10^6 = 80MB，可以使用数组存储80MB的整数，然后排序，使用二分查找取得某个数据。
-* 大部分情况下，使用二分查找可以解决的问题，散列表和二叉树也可以解决，那么是否可以用散列表或者二叉树呢？答案是否定的。因为散列表和二叉树都需要额外的存储，100MB必然不够。
 
 
 ## 9.旋转数组中的最小值
@@ -273,11 +269,11 @@ package array;
 [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/MinNumberInRotatedArray.java)]数组的旋转：将一个数组最开始的若干个元素搬到数组的末尾，即为数组的旋转。输入一个递增排序的数组的一个旋转，数组旋转数组的最小值。例如，数组{3,4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值为1。要求时间复杂度为O(logn)。
 
 
-## 10. 约瑟夫问题
+## 10.约瑟夫问题
  [Solution][约瑟夫问题](https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%E6%96%AF%E9%97%AE%E9%A2%98)
 
 
 
-## 11.回文串（基于链表）
+## 11.回文串判定
 
 [Solution]如果一个字符串是通过单链表来存储的，该如何来判断是一个回文串呢？其时间复杂度和空间复杂度是多少？
