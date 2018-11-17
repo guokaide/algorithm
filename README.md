@@ -23,14 +23,14 @@
 |001|[数组与动态泛型数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1%E6%95%B0%E7%BB%84%E4%B8%8E%E6%B3%9B%E5%9E%8B%E5%8A%A8%E6%80%81%E6%95%B0%E7%BB%84)|Yes|
 |002|[二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)|Yes|
 |003|[二分查找算法变形问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%E5%8F%98%E5%BD%A2%E9%97%AE%E9%A2%98)|Yes|
-|004|[数组与链表](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8)|Yes|
+|004|[链表与数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4%E6%95%B0%E7%BB%84%E4%B8%8E%E9%93%BE%E8%A1%A8)|Yes|
 |005|[Reverse Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#5reverse-linked-list)|Yes|
 |006|[单链表中间节点问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#6%E5%8D%95%E9%93%BE%E8%A1%A8%E4%B8%AD%E9%97%B4%E8%8A%82%E7%82%B9%E9%97%AE%E9%A2%98)|Yes|
 |007|[LRU Cache](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#7-lru-cache)|No|
 |008|[1000万整数中查找某个数](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#81000%E4%B8%87%E6%95%B4%E6%95%B0%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E6%95%B0)|Yes|
 |009|[旋转数组中的最小值](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#9%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC)|Yes|
 |010|[约瑟夫问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#10-%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98)|No|
-|011|[回文串（基于链表）](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#11%E5%9B%9E%E6%96%87%E4%B8%B2%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8)|No|
+|011|[回文串判定](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#11%E5%9B%9E%E6%96%87%E4%B8%B2%E5%9F%BA%E4%BA%8E%E9%93%BE%E8%A1%A8)|No|
 
 
 ## Appendix
