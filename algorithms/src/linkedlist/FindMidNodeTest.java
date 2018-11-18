@@ -3,6 +3,7 @@ package linkedlist;
 import org.junit.Assert;
 import org.junit.Test;
 
+
 public class FindMidNodeTest {
 
     @Test
