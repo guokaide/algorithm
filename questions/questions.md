@@ -255,7 +255,7 @@ package array;
 
 ## 7.LRU Cache
 
-[Solution][146.LRU Cache](https://leetcode.com/problems/lru-cache/description/)
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/lru/LRU.java)][146.LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 
 
 
@@ -270,7 +270,7 @@ package array;
 
 
 ## 10.约瑟夫问题
- [Solution]让小朋友们围成一个大圈。然后，随机指定一个数 m，让编号为 0 的小朋友开始报数。每次喊到 m-1 的那个小朋友要出列唱首歌，然后可以在礼品箱中任意的挑选礼物，并且不再回到圈中，从他的下一个小朋友开始，继续 0...m-1 报数 ...这样下去 ... 直到剩下最后一个小朋友，可以不用表演。
+ [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/joseph/Joseph.java)]0,1,...,n-1这n个数字排成一个圆圈，从数字0开始，每次从这个圆圈里删除第m个数字。求这个圆圈里剩下的最后一个数字。
 
 
 ## 11.回文串判定
