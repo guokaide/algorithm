@@ -184,9 +184,12 @@
 
 **淘汰策略**：缓存的大小有限，当缓存存放的数据量大于最大空间时，就涉及到数据的淘汰问题。常见的缓存淘汰策略有：
 
-- 先进先出策略FIFO(First In, First Out)
-- 最少使用策略LFU(Least Frequently Used)
-- 最近最少使用策略LRU(Least Recently Used)
+- 最少使用策略LFU(Least Frequently Used)：优先淘汰最少使用的数据。
+
+- 先进先出策略FIFO(First In, First Out)：在实时性要求的场景下，需要经常访问最新的数据，就可以使用FIFO，使得最先进入的数据被淘汰。
+
+- 最近最少使用策略LRU(Least Recently Used)：优先淘汰最久未使用的数据，也就是上次被访问时间距离现在最久的数据。LRU可以保证内存中的数据都是热点数据，即经常被访问的数据，从而保证缓存的命中率。
+
 
 
 
