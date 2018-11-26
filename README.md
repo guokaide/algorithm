@@ -35,10 +35,23 @@
 |013|[Merge Two Sorted Lists](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#13-merge-two-sorted-lists)|Yes|
 |014|[Remove Nth Node From End of List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#14-remove-nth-node-from-end-of-list)|Yes|
 
-## 剑指offer
 
 ## leetcode
+|#|Title|Solution|
+|:---:|:---|:---|
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/middleofthelinkedlist_876)|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/palindromelinkedlist_234)|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/reverselinkedlist_206)|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/linkedlistcycle_141)|
+|021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/mergetwosortedlist_21)|
+|019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/removenthnodefromendoflist_19)|
 
+
+## 剑指offer
+
+|#|Title|Solution|
+|:---:|:---|:---|
+|002|单例模式|Java|
 
 ## Appendix
 #### 1. 如何进行代码测试？[示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
