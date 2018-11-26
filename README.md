@@ -30,7 +30,14 @@
 |008|[1000万整数中查找某个数](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#81000%E4%B8%87%E6%95%B4%E6%95%B0%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E6%95%B0)|Yes|
 |009|[旋转数组中的最小值](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#9%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC)|Yes|
 |010|[约瑟夫问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#10%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98)|Yes|
-|011|[回文串判定](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#11%E5%9B%9E%E6%96%87%E4%B8%B2%E5%88%A4%E5%AE%9A)|No|
+|011|[回文串判定](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#11%E5%9B%9E%E6%96%87%E4%B8%B2%E5%88%A4%E5%AE%9A)|Yes|
+|012|[Linked List Cycle](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#12-linked-list-cycle)|Yes|
+|013|[Merge Two Sorted Lists](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#13-merge-two-sorted-lists)|Yes|
+|014|[Remove Nth Node From End of List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#14-remove-nth-node-from-end-of-list)|Yes|
+
+## 剑指offer
+
+## leetcode
 
 
 ## Appendix
