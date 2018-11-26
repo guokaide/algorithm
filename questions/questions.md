@@ -249,7 +249,9 @@ package array;
 
 ## 6.单链表中间节点问题
 
-[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/linkedlist/FindMidNode.java)]给定一个单链表，请找到其中间节点。例如：1->2->3, 中间节点为2; 1->2->3->4, 中间节点为2。
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/linkedlist/FindMidNode.java)]给定一个单链表，请找到其中间节点。例如：1->2->3, 中间节点为2; 1->2->3->4, 中间节点为3。
+
+或者 leetcode版本：[876.Middle of the Linked List ](https://leetcode.com/problems/middle-of-the-linked-list/ )
 
 
 
@@ -275,4 +277,21 @@ package array;
 
 ## 11.回文串判定
 
-[Solution]如果一个字符串是通过单链表来存储的，该如何来判断是一个回文串呢？其时间复杂度和空间复杂度是多少？
+[[Solution](https://github.com/guokaide/algorithm/blob/master/leetcode/src/palindromelinkedlist_234/PalindromeLinkedList.java)]如果一个字符串是通过单链表来存储的，该如何来判断是一个回文串呢？其时间复杂度和空间复杂度是多少？或者leetcode版本：[234.Palindrome Linked List ](https://leetcode.com/problems/palindrome-linked-list/ )
+
+## 12. Linked List Cycle
+
+[[Solution](https://github.com/guokaide/algorithm/blob/master/leetcode/src/linkedlistcycle_141/LinkedListCycle.java)][141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/ )
+
+
+
+## 13. Merge Two Sorted Lists
+
+[[Solution](https://github.com/guokaide/algorithm/blob/master/leetcode/src/mergetwosortedlist_21/Merge2SortedLists.java)][21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/ )
+
+
+
+## 14. Remove Nth Node From End of List
+
+[[Solution](https://github.com/guokaide/algorithm/blob/master/leetcode/src/removenthnodefromendoflist_19/RemoveNthNodeFromEndOfList.java)][19. Remove Nth Node From End of List ](https://leetcode.com/problems/remove-nth-node-from-end-of-list/ )
+
