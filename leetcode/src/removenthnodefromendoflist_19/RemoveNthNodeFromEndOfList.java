@@ -1,5 +1,9 @@
 package removenthnodefromendoflist_19;
 
+/**
+* 19. Remove Nth Node From End of List
+* https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+*/
 public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode p1 = head;
