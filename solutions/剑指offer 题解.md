@@ -94,9 +94,9 @@ public class Singleton {
 
 ####  5.枚举方法 
 枚举方法是由《Effective Java》的作者Josh Bloch提出，其好处在于：
-（1）自由序列化
-（2）保证只有一个实例
-（3）线程安全
+* 自由序列化
+* 保证只有一个实例
+* 线程安全
 
 ```java
 public enum Singleton {
