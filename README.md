@@ -51,7 +51,7 @@
 
 |#|Title|Solution|
 |:---:|:---|:---|
-|002|单例模式|Java|
+|002|单例模式|[Java](https://github.com/guokaide/algorithm/tree/master/offer/src/com/ex/singleton)|
 
 ## Appendix
 #### 1. 如何进行代码测试？[示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
