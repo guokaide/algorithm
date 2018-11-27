@@ -2,15 +2,68 @@
 
 ## 2. 实现单例模式
 
+### 什么是单例模式？
+
+**单例模式**，顾名思义就是整个系统只能有1个实例存在，不能再多了。
+
 ### 单例模式的好处
+
 单例模式适用于应用中频繁创建的对象，尤其是频繁创建的重量级对象。
 例如统一的配置文件。
 使用单例模式能够提升性能，减小内存开销。
 
 ### 单例模式的实现
+
+#### 0. 概述
+
+如何实现一个单例模式呢？我们讨论一下这个过程。
+
+首先我们搞一个类出来：
+
+```java
+public class Singleton {
+    
+}
+```
+
+空空如也，非常好，但是有个问题，大家可以在外面随便`new Singleton()`,那系统里就不止一个Singleton实例了，因此需要我们阻挡`new Singleton()`。那就不写构造方法呗？当然不行。因为如果不写构造方法，系统会默认分配无参构造器。那就直接将构造方法改为`private`呗。
+
+```java
+public class Singleton {
+    private Singleton() {}
+}
+```
+
+好，既然外面造不出Singleton实例了，那就自己造呗。
+
+```java
+public class Singleton {
+    private static final Singleton instance = new Singleton();
+    private Singleton() {}
+}
+```
+
+`private`关键字保证了Singleton实例的私有性，不可见性，不可访问性；`static`关键字保证了Singleton实例的静态性，与类同在，不依赖于类的实例化就在内存中永生；`final`关键字保证这个实例是常量，不可修改。
+
+那么既然外部无法创造这个实例，如何获取这个实例呢？整个`getInstance()`静态方法在外部获取这个实例，而且这个方法必须是`public`的。
+
+```java
+public class Singleton {
+    private static final Singleton instance = new Singleton();
+    private Singleton() {}
+    public static Singleton getInstance() {
+        return instance;
+    } 
+}
+```
+
+到此，外部就可以通过`Singleton.getInstance()`获取这个单例。
+
+这就是一个简单的**单例模式**的雏形（这其实是一个饿汉式单例模式）。以下介绍几种面试中常见的单例模式实现。
+
 #### 1.饿汉式
 饿汉式加载类的时候，就会创建类的实例对象，那么如果不用这个单例的话，就会消耗内存，浪费性能。
-因此，需要懒加载（lazy-load）
+因此，需要懒加载（lazy-load），即延迟加载。
 
 ```java
 public class Singleton {
@@ -23,7 +76,7 @@ public class Singleton {
     private Singleton() {}
 
     // getInstance必须是static方法（类方法）
-    public static Singleton1 getInstance() {
+    public static Singleton getInstance() {
         return instance;
     }
 }
