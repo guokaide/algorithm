@@ -49,9 +49,13 @@
 
 ## 剑指offer
 
+* 完整版[《剑指offer题解》（Java版）](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md)**不断更新中**...
+
+* 更新列表
+
 |#|Title|Solution|
 |:---:|:---|:---|
-|002|[单例模式](https://github.com/guokaide/algorithm/blob/master/offer/src/com/ex/singleton/singleton.md)|[Java](https://github.com/guokaide/algorithm/tree/master/offer/src/com/ex/singleton)|
+|002|[实现单例模式](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md#2-%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F)|[Java](https://github.com/guokaide/algorithm/tree/master/offer/src/com/ex/singleton)|
 
 ## Appendix
 #### 1. 如何进行代码测试？[示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
