@@ -175,13 +175,73 @@ public enum Singleton {
 
 
 
-## 3.数组中重复的数字
+## 3. 数组中重复的数字
 
 ### 3.1 找出数组中重复的数字
 
 在一个长度为n的数组里的所有的数字都在0~n-1的范围内。数组中某些数字是重复的，但不知道有几个数字重复，也不知道每个数字重复了几次。请找出数组中任意的一个数字。
 
 例如，输入长度为7的数组{2,3,1,0,2,5,3}，那么对应输出的是重复数字2或者3。
+
+[nowcoder](https://www.nowcoder.com/practice/623a5ac0ea5b4e5f95552655361ae0a8?tpId=13&tqId=11203&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking)
+
+**Solution**
+
+1.遍历数组，同时使用HashMap记录数组中每个元素出现的个数，当某个元素个数大于1时，输出该元素即可。
+
+时间复杂度O(n)，空间复杂度O(n)。
+
+实现如下：
+
+```java
+public boolean duplicate(int numbers[], int [] duplication) {
+        if (numbers == null || numbers.length < 2) {
+            return false;
+        }
+
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < numbers.length; i++) {
+            if (!map.containsKey(numbers[i])) {
+                map.put(numbers[i], 1);
+            } else {
+                duplication[0] = numbers[i];
+                return true;
+            }
+        }
+        return false;
+}
+```
+
+2.方法1并未使用题目中数组(numbers)元素都在0~n-1这个条件，如果使用这个条件的话，会发现若数组中没有重复元素的话，那么长度为n的数组，排序之后，应该是{0,1,2，...，n-1}，即k位置的元素为k。若有重复元素的话，那么k位置元素为k，其他位置也可能有k。利用这个特征遍历数组，若k位置的值为k，则遍历下一个元素；若k位置的元素的值不是k，则将k位置元素与numbers[k]位置元素交换，直到k位置的元素为k，然后遍历下一个元素，若在交换的过程中，发现k位置的元素等于numbers[k]位置的值，则k就是所求重复的值，结束遍历。
+
+时间复杂度O(n)，空间复杂度O(1)。
+
+实现如下：
+
+```java
+public boolean duplicate(int numbers[], int [] duplication) {
+        if (numbers == null || numbers.length < 2) {
+            return false;
+        }
+
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] == i) {
+                i++;
+            } else {
+                int m = numbers[i];
+                if (numbers[m] == m) {
+                    duplication[0] = m;
+                    return true;
+                } else {
+                    int tmp = numbers[i];
+                    numbers[i] = numbers[m];
+                    numbers[m] = tmp;
+                }
+            }
+        }
+        return false;
+}
+```
 
 ### 3.2 不修改数组找出重复的数字
 
