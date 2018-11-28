@@ -95,7 +95,6 @@ public class LRU<K,V> implements Iterable<K> {
     private void appendToHead(Node node) {
         Node next = head.next;
         node.next = next;
-        next.pre = node;
         node.pre = head;
         head.next = node;
     }
