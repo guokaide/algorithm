@@ -8,7 +8,8 @@ public class Merge2SortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) return l2;
         if (l2 == null) return l1;
-
+	
+	// 利用哨兵（前哨节点）简化实现难度
         ListNode outpost = new ListNode(-1);
         ListNode temp = outpost;
 
