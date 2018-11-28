@@ -70,6 +70,8 @@ public class LRUCache {
         Node next = head.next;
         node.next = next;
         node.pre = head;
+
+        next.pre = node;
         head.next = node;
     }
 
@@ -86,7 +88,7 @@ public class LRUCache {
         return node;
     }
 
-    private static class Node {
+    private class Node {
         int key;
         int value;
         Node pre;
@@ -96,14 +98,5 @@ public class LRUCache {
             this.key = key;
             this.value = value;
         }
-    }
-
-    public static void main(String[] args) {
-        LRUCache cache = new LRUCache(2);
-        cache.put(1,1);
-        cache.put(2,2);
-        System.out.println(cache.get(1));
-        cache.put(3,3);
-        System.out.println(cache.get(2));
     }
 }
