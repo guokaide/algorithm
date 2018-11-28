@@ -51,6 +51,7 @@
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/middleofthelinkedlist_876)|
 |234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/palindromelinkedlist_234)|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/reverselinkedlist_206)|
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/) |[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/lrucache_146)|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/linkedlistcycle_141)|
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/mergetwosortedlist_21)|
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/removenthnodefromendoflist_19)|
@@ -67,6 +68,7 @@
 |#|Title|Solution|
 |:---:|:---|:---|
 |002|[实现单例模式](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md#2-%E5%AE%9E%E7%8E%B0%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F)|[Java](https://github.com/guokaide/algorithm/tree/master/offer/src/com/ex/singleton)|
+|003|[数组中重复的数字](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md#3-%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97)|[Java](https://github.com/guokaide/algorithm/blob/master/offer/src/com/ex/offer/Ex_03_FindDuplicatedNumInArray.java)|
 
 ## Appendix
 #### 1. 如何进行代码测试？[示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
