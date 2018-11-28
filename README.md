@@ -10,13 +10,20 @@
 
 * 准备校招面试时，参见校招攻略：[2019秋招经验谈](https://mp.weixin.qq.com/s/iVHSbojhMSIL37K-UbM41A)
 
+## Data Structure and Algorithm
+
+* [Data Structure and Algorithm](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md) 
+  
+  数组、链表、排序...不断更新中...
+
 
 ## Questions
 
-问题列表如下，请大家点击Title列对应的问题标题进入问题,开始挑战~
-* **以下所有问题均选自校招各公司面试题**
-* **不断更新中**...
+* [Questions](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)
 
+  所有问题均选自与校招面试真题，包括问答题，算法题，手撕代码题等。不断更新中...
+
+* 更新列表
 
 |#|Title|Finished|
 |:---:|:---|:---|
@@ -49,7 +56,9 @@
 
 ## 剑指offer
 
-* 完整版[《剑指offer题解》（Java版）](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md)**不断更新中**...
+* [《剑指offer题解》（Java版）](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md)
+
+  《剑指offer》的Java版本题解，不断更新中...
 
 * 更新列表
 
