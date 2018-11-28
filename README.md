@@ -22,7 +22,9 @@
 * [Questions](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)
 
   所有问题均选自与校招面试真题，包括问答题，算法题，手撕代码题等。不断更新中...
-
+  
+  大家可以点击更新列表中的**Title**列的题目，开始算法练级挑战，加油~
+  
 * 更新列表
 
 |#|Title|Finished|
