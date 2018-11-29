@@ -1,6 +1,8 @@
 # Questions
 
-## 1.数组与泛型动态数组
+## 数组
+
+### 1. 数组与泛型动态数组
 [[Solution1](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md)][[Solution2](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/GenericArray.java)]请谈谈数组的特点，并且实现泛型动态数组（即Vector in C++ or ArrayList in Java）的插入、删除以及查找操作，比较原生数组与泛型动态数组的区别。查看泛型动态数组API:
 
 ```java
@@ -134,26 +136,18 @@ package array;
    
 ```
 
+### 2. 1000万整数中查找某个数
+[[Solution](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E9%97%AE%E9%A2%98)]假设我们有 1000 万个整数数据，每个数据占 8 个字节，如何设计数据结构和算法，快速判断某个整数是否出现在这 1000 万数据中？ 我们希望这个功能不要占用太多的内存空间，最多不要超过 100MB，你会怎么做呢？
 
-
-## 2.二分查找算法
-
-[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)]请实现正确的二分查找算法（递归与非递归），并分析其时间复杂度（O(nlogn)）。
-
-
-
-## 3.二分查找算法变形问题
-
-[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)]给定一个有序数组，
-* 查找第一个值等于给定值的元素
-* 查找最后一个值等于给定值的元素
-* 查找第一个大于等于给定值的元素
-* 查找最后一个小于等于给定值的元素
+### 3. 约瑟夫问题
+ [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/joseph/Joseph.java)]0,1,...,n-1这n个数字排成一个圆圈，从数字0开始，每次从这个圆圈里删除第m个数字。求这个圆圈里剩下的最后一个数字。
 
 
 
-## 4.链表与数组
 
+## 链表
+
+### 1. 链表与数组
 [[Solution1](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md)][[Solution2](https://github.com/guokaide/algorithm/blob/master/algorithms/src/linkedlist/SingleLinkedList.java)]请谈谈链表的特点，比较数组与链表的不同，并实现单链表的基本操作：插入、删除以及查找操作。查看单链表API：
 
    ```java
@@ -241,57 +235,61 @@ package array;
    }
    ```
 
-   ## 5.Reverse Linked List
+### 2. Reverse Linked List
 
 [[Solution](https://github.com/guokaide/leetcode/tree/master/algorithms/src/reverselinkedlist_206)][206.Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
 
 
-## 6.单链表中间节点问题
+### 3. Middle of the Linked List
 
 [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/linkedlist/FindMidNode.java)]给定一个单链表，请找到其中间节点。例如：1->2->3, 中间节点为2; 1->2->3->4, 中间节点为3。
 
 或者 leetcode版本：[876.Middle of the Linked List ](https://leetcode.com/problems/middle-of-the-linked-list/ )
 
 
-
-## 7.LRU Cache
+### 4. LRU Cache
 
 [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/lru/LRU.java)][146.LRU Cache](https://leetcode.com/problems/lru-cache/description/)
 
 
-
-## 8.1000万整数中查找某个数
-[[Solution](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E9%97%AE%E9%A2%98)]假设我们有 1000 万个整数数据，每个数据占 8 个字节，如何设计数据结构和算法，快速判断某个整数是否出现在这 1000 万数据中？ 我们希望这个功能不要占用太多的内存空间，最多不要超过 100MB，你会怎么做呢？
-
-
-
-## 9.旋转数组中的最小值
-
-[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/MinNumberInRotatedArray.java)]数组的旋转：将一个数组最开始的若干个元素搬到数组的末尾，即为数组的旋转。输入一个递增排序的数组的一个旋转，数组旋转数组的最小值。例如，数组{3,4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值为1。要求时间复杂度为O(logn)。
-
-
-## 10.约瑟夫问题
- [[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/joseph/Joseph.java)]0,1,...,n-1这n个数字排成一个圆圈，从数字0开始，每次从这个圆圈里删除第m个数字。求这个圆圈里剩下的最后一个数字。
-
-
-## 11.回文串判定
+### 5. Palindrome Linked List
 
 [[Solution](https://github.com/guokaide/algorithm/blob/master/leetcode/src/palindromelinkedlist_234/PalindromeLinkedList.java)]如果一个字符串是通过单链表来存储的，该如何来判断是一个回文串呢？其时间复杂度和空间复杂度是多少？或者leetcode版本：[234.Palindrome Linked List ](https://leetcode.com/problems/palindrome-linked-list/ )
 
-## 12. Linked List Cycle
+### 6. Linked List Cycle
 
 [[Solution](https://github.com/guokaide/algorithm/blob/master/leetcode/src/linkedlistcycle_141/LinkedListCycle.java)][141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/ )
 
 
 
-## 13. Merge Two Sorted Lists
+### 7. Merge Two Sorted Lists
 
 [[Solution](https://github.com/guokaide/algorithm/blob/master/leetcode/src/mergetwosortedlist_21/Merge2SortedLists.java)][21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/ )
 
 
 
-## 14. Remove Nth Node From End of List
+### 8. Remove Nth Node From End of List
 
 [[Solution](https://github.com/guokaide/algorithm/blob/master/leetcode/src/removenthnodefromendoflist_19/RemoveNthNodeFromEndOfList.java)][19. Remove Nth Node From End of List ](https://leetcode.com/problems/remove-nth-node-from-end-of-list/ )
 
+
+
+## 二分查找算法
+
+### 1. 二分查找算法
+
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)]请实现正确的二分查找算法（递归与非递归），并分析其时间复杂度（O(nlogn)）。
+
+### 2. 二分查找算法变形问题
+
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)]给定一个有序数组，
+
+- 查找第一个值等于给定值的元素
+- 查找最后一个值等于给定值的元素
+- 查找第一个大于等于给定值的元素
+- 查找最后一个小于等于给定值的元素
+
+### 3. 旋转数组中的最小值
+
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/MinNumberInRotatedArray.java)]数组的旋转：将一个数组最开始的若干个元素搬到数组的末尾，即为数组的旋转。输入一个递增排序的数组的一个旋转，数组旋转数组的最小值。例如，数组{3,4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值为1。要求时间复杂度为O(logn)。
