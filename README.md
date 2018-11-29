@@ -19,13 +19,13 @@
 
 ## Questions
 
-* [Questions](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)
+### [Questions](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)
 
   所有问题均选自与校招面试真题，包括问答题，算法题，手撕代码题等。不断更新中（每周至少更新3个问题）...
   
   大家可以点击更新列表中的**Title**列的题目，开始算法练级挑战，加油~
   
-* 目录
+### 目录
 
 * [数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E6%95%B0%E7%BB%84)
 
