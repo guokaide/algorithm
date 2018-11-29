@@ -19,13 +19,15 @@
 
 ## Questions
 
-### [Questions](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)
+### 目录
+  
+  [Questions](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)
 
   所有问题均选自与校招面试真题，包括问答题，算法题，手撕代码题等。不断更新中（每周至少更新3个问题）...
   
   大家可以点击更新列表中的**Title**列的题目，开始算法练级挑战，加油~
   
-### 目录
+### 正文
 
 * [数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E6%95%B0%E7%BB%84)
 
@@ -59,15 +61,15 @@
 
 
 ## leetcode
-|#|Title|Solution|
-|:---:|:---|:---|
-|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/middleofthelinkedlist_876)|
-|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/palindromelinkedlist_234)|
-|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/reverselinkedlist_206)|
-|146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/) |[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/lrucache_146)|
-|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/linkedlistcycle_141)|
-|021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/mergetwosortedlist_21)|
-|019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/removenthnodefromendoflist_19)|
+|#|Title|Difficulty|Solution|
+|:---:|:---|:---|:---|
+|876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|Easy|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/middleofthelinkedlist_876)|
+|234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|Easy|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/palindromelinkedlist_234)|
+|206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|Easy|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/reverselinkedlist_206)|
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/) |Hard|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/lrucache_146)|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|Easy|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/linkedlistcycle_141)|
+|021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|Easy|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/mergetwosortedlist_21)|
+|019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/removenthnodefromendoflist_19)|
 
 
 ## 剑指offer
