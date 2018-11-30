@@ -14,7 +14,7 @@
 
 * [Data Structure and Algorithm](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md) 
   
-  数组、链表、排序...不断更新中（每周至少更新一个知识点）...
+  数组、链表、栈、队列、二分查找、排序...不断更新中（每周至少更新一个知识点）...
 
 
 ## Questions
@@ -49,6 +49,27 @@
 |006|[Linked List Cycle](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#6-linked-list-cycle)|Yes|
 |007|[Merge Two Sorted Lists](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#7-merge-two-sorted-lists)|Yes|
 |008|[Remove Nth Node From End of List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#8-remove-nth-node-from-end-of-list)|Yes|
+
+* [栈](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E6%A0%88)
+
+|#|Title|Finished|
+|:---:|:---|:---|
+|001|[Implement Stack using Array](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-implement-stack-using-array)|No|
+|002|[Implement Stack using Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2-implement-stack-using-linked-list)|No|
+|003|[Implement Stack using Queues](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3-implement-stack-using-queues)|No|
+|004|[Implement Queue using Stacks](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4-implement-queue-using-stacks)|No|
+|005|[Valid Parentheses](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#5-valid-parentheses)|No|
+|006|[Min Stack](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#6-min-stack)|No|
+|007|[Implement the Forward and Backward Functions of the Browser](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#7-implement-the-forward-and-backward-functions-of-the-browser)|No|
+
+* [队列](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E9%98%9F%E5%88%97)
+
+|#|Title|Finished|
+|:---:|:---|:---|
+|001|[Implement Queue using Array](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-implement-queue-using-array)|No|
+|002|[Implement Queue using Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2-implement-queue-using-linked-list)|No|
+|003|[Design Circular Queue](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3-design-circular-queue)|No|
+|004|[Design Circular Deque](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4-design-circular-deque)|No|
 
 
 * [二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)
