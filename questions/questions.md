@@ -275,6 +275,124 @@ package array;
 
 
 
+## 栈
+
+### 1. Implement Stack using Array
+
+[Solution] 实现顺序栈。**顺序栈**：用数组实现的栈。栈的API如下：
+
+```java
+public class ArrayStack {
+    public boolean push(int item) {
+        
+    }
+    
+    public int pop() {
+        
+    }
+}
+```
+
+
+
+### 2. Implement Stack using Linked List
+
+[Solution] 实现链式栈。**链式栈**：用链表实现的栈。栈的API如下：
+
+```java
+public class ListStack {
+    public boolean push(int item) {
+        
+    }
+    
+    public int pop() {
+        
+    }
+}
+```
+
+
+
+### 3. Implement Stack using Queues
+
+[Solution][225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)
+
+
+
+### 4. Implement Queue using Stacks
+
+[Solution][232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+
+
+### 5. Valid Parentheses
+
+[Solution][20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
+
+
+### 6. Min Stack
+
+[Solution][155. Min Stack](https://leetcode.com/problems/min-stack/)
+
+ 
+
+### 7. Implement the Forward and Backward Functions of the Browser
+
+[Solution] 浏览器的前进和后退功能：当你依次访问完一串页面 a-b-c 之后，点击浏览器的后退按钮，就可以查看之前浏览过的页面 b 和 a。当你后退到页面a，点击前进按钮，就可以重新查看页面 b 和 c。但是，如果你后退到页面 b 后，点击了新的页面 d，那就无法再通过前进、后退功能查看页面 c 了。请实现这个功能。
+
+
+
+## 队列
+
+### 1. Implement Queue using Array
+
+[Solution] 实现顺序队列。**顺序队列**：用数组实现的队列。API如下：
+
+```java
+public class ArrayQueue {
+    public boolean enqueue(int Item) {
+        
+    }
+    
+    public int dequeue() {
+        
+    }
+}
+```
+
+
+
+### 2. Implement Queue using Linked List
+
+[Solution] 实现链式队列。**链式队列**：用链表实现的队列。API如下：
+
+```java
+public class ListQueue {
+    public boolean enqueue(int Item) {
+        
+    }
+    
+    public int dequeue() {
+        
+    }
+}
+```
+
+
+
+### 3. Design Circular Queue
+
+[Solution][622. Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)
+
+
+
+### 4. Design Circular Deque
+
+[Solution][641. Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)
+
+
+
 ## 二分查找算法
 
 ### 1. 二分查找算法
