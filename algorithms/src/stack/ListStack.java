@@ -36,6 +36,9 @@ public class ListStack<T> implements Stack<T> {
     // T(N)=O(1)
     @Override
     public T peek() {
+        if (top == null) {
+            return null;
+        }
         return (T) top.getData();
     }
 
@@ -51,5 +54,21 @@ public class ListStack<T> implements Stack<T> {
         public T getData() {
             return this.data;
         }
+    }
+
+    public static void main(String[] args) {
+        ListStack<String> stack = new ListStack<>();
+        stack.push("A");
+        stack.push("B");
+        stack.push("C");
+        stack.push("D");
+        System.out.println(stack.peek());
+        stack.pop();
+        System.out.println(stack.peek());
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        System.out.println(stack.peek());
     }
 }

@@ -44,6 +44,25 @@ public class ArrayStack<T> implements Stack<T> {
     // T(N)=O(1)
     @Override
     public T peek() {
+        if (top == 0) {
+            return null;
+        }
         return items[top -1];
+    }
+
+    public static void main(String[] args) {
+        ArrayStack<String> stack = new ArrayStack<>(4);
+        stack.push("A");
+        stack.push("B");
+        stack.push("C");
+        stack.push("D");
+        System.out.println(stack.peek());
+        stack.pop();
+        System.out.println(stack.peek());
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        System.out.println(stack.peek());
     }
 }

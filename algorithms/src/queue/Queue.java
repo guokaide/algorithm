@@ -2,5 +2,5 @@ package queue;
 
 public interface Queue<T> {
     boolean enqueue(T item);
-    T deque();
+    T dequeue();
 }

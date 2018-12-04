@@ -1,12 +1,12 @@
 package queue;
 
-public class ArrayQueue<T> implements Queue<T> {
+public class CircularQueue<T> {
     private T[] items;
     private int capacity;
     private int head;
     private int tail;
 
-    public ArrayQueue(int capacity) {
+    public CircularQueue(int capacity) {
         this.capacity = capacity;
         this.items = (T[]) new Object[capacity];
         this.head = 0;
@@ -14,35 +14,27 @@ public class ArrayQueue<T> implements Queue<T> {
     }
 
     // T(N)=O(1)
-    @Override
     public boolean enqueue(T item) {
-        if (tail == capacity) {
-            // head == 0 && tail == capacity, queue is full.
-            if (head == 0) {
-                return false;
-            }
-
-            // 数据搬移，空出位置
-            for (int i = head; i < tail; i++) {
-                items[i-head] = items[i];
-            }
+        // 队满条件
+        if ((tail + 1) % capacity == head) {
+            return false;
         }
 
         items[tail] = item;
-        tail++;
-
+        tail = (tail + 1) % capacity;
         return true;
     }
 
     // T(N)=O(1)
-    @Override
     public T dequeue() {
+        // 队空
         if (head == tail) {
             return null;
         }
 
         T tmp = items[head];
-        head++;
+        items[head] = null;  // 这里可以选择置为nulL,也可以不置为null.
+        head = (head + 1) % capacity;
 
         return tmp;
     }
@@ -50,7 +42,7 @@ public class ArrayQueue<T> implements Queue<T> {
     // for test
     public void printAll() {
         System.out.print("[");
-        for (int i = head;  i < tail; i++) {
+        for (int i = 0;  i < capacity; i++) {
             System.out.print(items[i] + " ");
         }
         System.out.print("]");
@@ -58,7 +50,7 @@ public class ArrayQueue<T> implements Queue<T> {
     }
 
     public static void main(String[] args) {
-        ArrayQueue<String> queue = new ArrayQueue<>(4);
+        CircularQueue<java.lang.String> queue = new CircularQueue<>(4);
         queue.printAll();
         queue.enqueue("A");
         queue.printAll();
@@ -71,7 +63,7 @@ public class ArrayQueue<T> implements Queue<T> {
 
         queue.dequeue();
         queue.dequeue();
-        queue.dequeue();
+        queue.enqueue("E");
         queue.printAll();
     }
 }
