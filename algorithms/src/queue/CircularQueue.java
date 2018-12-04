@@ -27,7 +27,7 @@ public class CircularQueue<T> {
 
     // T(N)=O(1)
     public T dequeue() {
-        // 队空
+        // 队空条件
         if (head == tail) {
             return null;
         }
