@@ -12,10 +12,28 @@
 
 ## Data Structure and Algorithm
 
-* [Data Structure and Algorithm](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md) 
+### 目录
+[Data Structure and Algorithm](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md) 
   
-  数组、链表、栈、队列、二分查找、排序...不断更新中（每周至少更新一个知识点）...
+数组、链表、栈、队列、二分查找、排序...不断更新中（每周至少更新一个知识点）...
 
+### 正文
+
+* [数组](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E6%95%B0%E7%BB%84)
+
+* [链表](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E9%93%BE%E8%A1%A8)
+
+* [栈](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E6%A0%88)
+
+* [队列](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E9%98%9F%E5%88%97)
+
+* [二分查找算法](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
+
+* [排序算法](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E6%8E%92%E5%BA%8F)
+
+* [设计思想](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E8%AE%BE%E8%AE%A1%E6%80%9D%E6%83%B3)
+
+* [缓存](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E7%BC%93%E5%AD%98)
 
 ## Questions
 
@@ -29,7 +47,7 @@
   
 ### 正文
 
-* [数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E6%95%B0%E7%BB%84)
+#### [数组](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E6%95%B0%E7%BB%84)
 
 |#|Title|Finished|
 |:---:|:---|:---|
@@ -37,7 +55,7 @@
 |002|[1000万整数中查找某个数](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2-1000%E4%B8%87%E6%95%B4%E6%95%B0%E4%B8%AD%E6%9F%A5%E6%89%BE%E6%9F%90%E4%B8%AA%E6%95%B0)|Yes|
 |003|[约瑟夫问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3-%E7%BA%A6%E7%91%9F%E5%A4%AB%E9%97%AE%E9%A2%98)|Yes|
 
-* [链表](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E9%93%BE%E8%A1%A8)
+#### [链表](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E9%93%BE%E8%A1%A8)
 
 |#|Title|Finished|
 |:---:|:---|:---|
@@ -50,7 +68,7 @@
 |007|[Merge Two Sorted Lists](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#7-merge-two-sorted-lists)|Yes|
 |008|[Remove Nth Node From End of List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#8-remove-nth-node-from-end-of-list)|Yes|
 
-* [栈](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E6%A0%88)
+#### [栈](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E6%A0%88)
 
 |#|Title|Finished|
 |:---:|:---|:---|
@@ -62,7 +80,7 @@
 |006|[Min Stack](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#6-min-stack)|No|
 |007|[Implement the Forward and Backward Functions of the Browser](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#7-implement-the-forward-and-backward-functions-of-the-browser)|No|
 
-* [队列](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E9%98%9F%E5%88%97)
+#### [队列](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E9%98%9F%E5%88%97)
 
 |#|Title|Finished|
 |:---:|:---|:---|
@@ -72,7 +90,7 @@
 |004|[Design Circular Deque](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4-design-circular-deque)|No|
 
 
-* [二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)
+#### [二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)
 
 |#|Title|Finished|
 |:---:|:---|:---|
