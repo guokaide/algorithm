@@ -279,7 +279,7 @@ package array;
 
 ### 1. Implement Stack using Array
 
-[Solution] 实现顺序栈。**顺序栈**：用数组实现的栈。栈的API如下：
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/stack/ArrayStack.java)] 实现顺序栈。**顺序栈**：用数组实现的栈。栈的API如下：
 
 ```java
 public class ArrayStack {
@@ -293,11 +293,13 @@ public class ArrayStack {
 }
 ```
 
+**扩展问题：**
 
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/stack/DynamicArrayStack.java)]你是否能够实现支持动态扩容的顺序栈？是否能够分析其操作的时间复杂度？（动态扩容的实现方法见问题【数组-1.数组与泛型动态数组】）
 
 ### 2. Implement Stack using Linked List
 
-[Solution] 实现链式栈。**链式栈**：用链表实现的栈。栈的API如下：
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/stack/ListStack.java)] 实现链式栈。**链式栈**：用链表实现的栈。栈的API如下：
 
 ```java
 public class ListStack {
@@ -347,7 +349,7 @@ public class ListStack {
 
 ### 1. Implement Queue using Array
 
-[Solution] 实现顺序队列。**顺序队列**：用数组实现的队列。API如下：
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/queue/ArrayQueue.java)] 实现顺序队列。**顺序队列**：用数组实现的队列。API如下：
 
 ```java
 public class ArrayQueue {
@@ -365,7 +367,7 @@ public class ArrayQueue {
 
 ### 2. Implement Queue using Linked List
 
-[Solution] 实现链式队列。**链式队列**：用链表实现的队列。API如下：
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/queue/ListQueue.java)] 实现链式队列。**链式队列**：用链表实现的队列。API如下：
 
 ```java
 public class ListQueue {
