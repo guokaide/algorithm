@@ -54,8 +54,8 @@
 
 |#|Title|Finished|
 |:---:|:---|:---|
-|001|[Implement Stack using Array](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-implement-stack-using-array)|No|
-|002|[Implement Stack using Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2-implement-stack-using-linked-list)|No|
+|001|[Implement Stack using Array](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-implement-stack-using-array)|Yes|
+|002|[Implement Stack using Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2-implement-stack-using-linked-list)|Yes|
 |003|[Implement Stack using Queues](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3-implement-stack-using-queues)|No|
 |004|[Implement Queue using Stacks](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4-implement-queue-using-stacks)|No|
 |005|[Valid Parentheses](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#5-valid-parentheses)|No|
@@ -66,8 +66,8 @@
 
 |#|Title|Finished|
 |:---:|:---|:---|
-|001|[Implement Queue using Array](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-implement-queue-using-array)|No|
-|002|[Implement Queue using Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2-implement-queue-using-linked-list)|No|
+|001|[Implement Queue using Array](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-implement-queue-using-array)|Yes|
+|002|[Implement Queue using Linked List](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2-implement-queue-using-linked-list)|Yes|
 |003|[Design Circular Queue](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3-design-circular-queue)|No|
 |004|[Design Circular Deque](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4-design-circular-deque)|No|
 
