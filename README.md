@@ -10,12 +10,12 @@
 
 * 准备校招面试时，参见校招攻略：[2019秋招经验谈](https://mp.weixin.qq.com/s/iVHSbojhMSIL37K-UbM41A)
 
-## Data Structure and Algorithm
+## 1. Data Structure and Algorithms
 
 ### 目录
-[Data Structure and Algorithm](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md) 
+[Data Structure and Algorithms](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md) 
   
-数组、链表、栈、队列、二分查找、排序...不断更新中（每周至少更新一个知识点）...
+**数据结构与算法的要点总结**，包括数组、链表、栈、队列、二分查找、排序...不断更新中（每周至少更新一个知识点）...
 
 ### 正文
 
@@ -35,12 +35,14 @@
 
 * [缓存](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E7%BC%93%E5%AD%98)
 
-## Questions
+## 2. Questions
 
 ### 目录
   
   [Questions](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)
 
+  算法练级计划核心部分，通过coding，提高代码能力，掌握数据结构与算法。**Talk is cheap, show me the code.**
+  
   所有问题均选自与校招面试真题，包括问答题，算法题，手撕代码题等。不断更新中（每周至少更新3个问题）...
   
   大家可以点击更新列表中的**Title**列的题目，开始算法练级挑战，加油~
@@ -99,7 +101,7 @@
 |003|[旋转数组中的最小值](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3-%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC)|Yes|
 
 
-## leetcode
+## 3. leetcode
 |#|Title|Difficulty|Solution|
 |:---:|:---|:---|:---|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|Easy|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/middleofthelinkedlist_876)|
@@ -111,7 +113,7 @@
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/removenthnodefromendoflist_19)|
 
 
-## 剑指offer
+## 4. 剑指offer
 
 * [《剑指offer题解》（Java版）](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md)
 
