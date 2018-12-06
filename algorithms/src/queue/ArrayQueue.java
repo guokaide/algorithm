@@ -29,7 +29,7 @@ public class ArrayQueue<T> implements Queue<T> {
 			
 	    // 搬移完之后，更新head和tail
 	    tail -= head;
-            head = 0;
+	    head = 0;
         }
 
         items[tail] = item;
