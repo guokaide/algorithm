@@ -26,6 +26,10 @@ public class ArrayQueue<T> implements Queue<T> {
             for (int i = head; i < tail; i++) {
                 items[i-head] = items[i];
             }
+			
+			// 搬移完之后，更新head和tail
+			tail -= head;
+			head = 0;
         }
 
         items[tail] = item;
