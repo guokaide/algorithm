@@ -4,9 +4,13 @@
 
 ## Introduction
 
+「算法练级计划」以面试算法题目为线索，总结归纳面试涉及的算法知识点，整理leetcode以及「剑指offer」出现的面试题目，通过coding，提高算法能力。
+
+> Talk is cheap, show me the code.
+
 * 了解算法练级计划：[算法练级计划](https://mp.weixin.qq.com/s/6vuaECCmrxrchr5Hc11S5w)
 
-* 在开启算法练级计划之前，需要同学们了解至少一门编程语言，我在这里推荐Java语言，Java学习参见：[Java练级攻略](https://mp.weixin.qq.com/s/i-j27vWXPS4kGmxO7i9p9w)
+* 在开启算法练级计划之前，需要同学们了解至少一门编程语言，我在这里推荐Java语言，Java学习参见：[Java练级攻略](https://mp.weixin.qq.com/s/i-j27vWXPS4kGmxO7i9p9w)，Java学习资源参见：[Java练级资源包](https://mp.weixin.qq.com/s/BomvPTaoAV1rDI6X8yDs-w)
 
 * 准备校招面试时，参见校招攻略：[2019秋招经验谈](https://mp.weixin.qq.com/s/iVHSbojhMSIL37K-UbM41A)
 
