@@ -13,7 +13,7 @@
 
 * 准备校招面试时，参见校招攻略：[2019秋招经验谈](https://mp.weixin.qq.com/s/iVHSbojhMSIL37K-UbM41A)
 
-## 1. Data Structure and Algorithms
+## *1*、 Data Structure and Algorithms
 
 ### 目录
 [Data Structure and Algorithms](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md) 
@@ -38,7 +38,7 @@
 
 * [缓存](https://github.com/guokaide/algorithm/blob/master/summary/algorithm.md#%E7%BC%93%E5%AD%98)
 
-## 2. Questions
+## *2*、 Questions
 
 ### 目录
   
@@ -104,7 +104,7 @@
 |003|[旋转数组中的最小值](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3-%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC)|Yes|
 
 
-## 3. leetcode
+## *3*、 leetcode
 |#|Title|Difficulty|Solution|
 |:---:|:---|:---|:---|
 |876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|Easy|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/middleofthelinkedlist_876)|
@@ -116,7 +116,7 @@
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|Medium|[Java](https://github.com/guokaide/algorithm/tree/master/leetcode/src/removenthnodefromendoflist_19)|
 
 
-## 4. 剑指offer
+## *4*、 剑指offer
 
 * [「剑指offer题解」（Java版）](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md)
 
@@ -130,8 +130,12 @@
 |003|[数组中重复的数字](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md#3-%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97)|[Java](https://github.com/guokaide/algorithm/blob/master/offer/src/com/ex/offer/Ex_03_FindDuplicatedNumInArray.java)|
 
 ## Appendix
-#### 1. 如何进行代码测试？[示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
+#### 1. 如何进行代码测试？
 
+* [题目：二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)
+
+* [测试：二分查找算法测试示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
+ 
 ## 欢迎大家关注我的公众号： 【算法修炼笔记】
 
 主要分享校招笔试面试经验、数据结构与算法、计算机网络、操作系统、数据库以及法律知识等，完成从码农到工程师的进阶之路~
