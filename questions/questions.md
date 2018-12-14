@@ -399,11 +399,11 @@ public class ListQueue {
 
 ### 1. 二分查找算法
 
-[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)]请实现正确的二分查找算法（递归与非递归），并分析其时间复杂度（O(nlogn)）。
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)] 请实现正确的二分查找算法（递归与非递归），并分析其时间复杂度（O(nlogn)）。
 
 ### 2. 二分查找算法变形问题
 
-[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)]给定一个有序数组，
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearch.java)] 给定一个有序数组，
 
 - 查找第一个值等于给定值的元素
 - 查找最后一个值等于给定值的元素
@@ -412,4 +412,14 @@ public class ListQueue {
 
 ### 3. 旋转数组中的最小值
 
-[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/MinNumberInRotatedArray.java)]数组的旋转：将一个数组最开始的若干个元素搬到数组的末尾，即为数组的旋转。输入一个递增排序的数组的一个旋转，数组旋转数组的最小值。例如，数组{3,4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值为1。要求时间复杂度为O(logn)。
+[[Solution](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/MinNumberInRotatedArray.java)] 数组的旋转：将一个数组最开始的若干个元素搬到数组的末尾，即为数组的旋转。输入一个递增排序的数组的一个旋转，数组旋转数组的最小值。例如，数组{3,4,5,1,2}是数组{1,2,3,4,5}的一个旋转，该数组的最小值为1。要求时间复杂度为O(logn)。
+
+### 4. Sqrt(x)
+
+[Solution][69. Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)
+
+
+
+## 递归
+### 1. Pow(x, n)
+[Solution][50. Pow(x,n)](https://leetcode.com/problems/powx-n/description/)
