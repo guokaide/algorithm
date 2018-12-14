@@ -4,9 +4,8 @@
 
 ## Introduction
 
-「算法练级计划」以面试算法题目为线索，总结归纳面试涉及的算法知识点，整理leetcode以及「剑指offer」出现的面试题目，通过coding，提高算法能力。
+**算法练级计划**以面试算法题目为线索，总结归纳面试涉及的算法知识点，整理LeetCode以及「剑指offer」出现的面试题目，在大量的LeetCode题目中梳理一个刷题脉络，让大家能够在有限的时间内，通过面试算法题目的练习，提高算法能力，更加有效地准备面试~
 
-> Talk is cheap, show me the code.
 
 * 了解算法练级计划：[算法练级计划](https://mp.weixin.qq.com/s/6vuaECCmrxrchr5Hc11S5w)
 
@@ -119,9 +118,9 @@
 
 ## 4. 剑指offer
 
-* [《剑指offer题解》（Java版）](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md)
+* [「剑指offer题解」（Java版）](https://github.com/guokaide/algorithm/blob/master/solutions/%E5%89%91%E6%8C%87offer%20%E9%A2%98%E8%A7%A3.md)
 
-  《剑指offer》的Java版本题解，不断更新中...
+  「剑指offer」的Java版本题解，不断更新中...
 
 * 更新列表
 
