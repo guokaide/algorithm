@@ -102,7 +102,12 @@
 |001|[二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)|Yes|
 |002|[二分查找算法变形问题](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#2-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95%E5%8F%98%E5%BD%A2%E9%97%AE%E9%A2%98)|Yes|
 |003|[旋转数组中的最小值](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#3-%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC)|Yes|
+|004|[Sqrt(x)](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#4-sqrtx)|No|
 
+#### [递归](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#%E9%80%92%E5%BD%92)
+|#|Title|Finished|
+|:---:|:---|:---|
+|001|[Pow(x, n)](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-powx-n)|No|
 
 ## *3*、 leetcode
 |#|Title|Difficulty|Solution|
