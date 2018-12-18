@@ -43,12 +43,16 @@
 ### 目录
   
   [Questions](https://github.com/guokaide/algorithm/blob/master/questions/questions.md)
-
-  算法练级计划核心部分，通过coding，提高代码能力，掌握数据结构与算法。**Talk is cheap, show me the code.**
   
-  所有问题均选自与校招面试真题，包括问答题，算法题，手撕代码题等。不断更新中（每周至少更新3个问题）...
+  > **Talk is cheap, show me the code.**
+
+  算法练级计划核心部分，通过coding，提高代码能力，掌握数据结构与算法。
+  
+  所有问题均选自与校招面试真题，包括问答题，算法题，手撕代码题等。
   
   大家可以点击更新列表中的**Title**列的题目，开始算法练级挑战，加油~
+  
+  *ps.不断更新中（每周至少更新3个问题）*...
   
 ### 正文
 
