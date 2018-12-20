@@ -5,4 +5,8 @@ package stack;
  */
 public class SampleBrowser {
 
+    private String currentPage;
+//    private Stack backwardStack;
+    private Stac
+
 }
