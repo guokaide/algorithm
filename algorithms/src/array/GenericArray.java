@@ -78,7 +78,7 @@ public class GenericArray<T> {
         if (size == data.length) {
             resize(2 * size);
         }
-        for (int i = index; i < size; i++) {
+        for (int i = size - 1; i >= index; i++) {
             data[i+1] = data[i];
         }
         data[index] = e;
