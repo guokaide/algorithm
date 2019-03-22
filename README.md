@@ -2,6 +2,8 @@
 
 > **既然终要承受痛苦，那么尝试思考的痛总归比承受学习的苦更有意义。**
 
+在正式开始之前，邀请你阅读「[The Key To Accelerating Your Coding Skills](http://blog.thefirehoseproject.com/posts/learn-to-code-and-be-self-reliant/)」，这篇文章将会告诉你如何快速有效地提高自己的编程能力。
+
 ## Introduction
 
 **算法练级计划**以面试算法题目为线索，总结归纳面试涉及的算法知识点，整理LeetCode以及「剑指offer」出现的面试题目，在大量的LeetCode题目中梳理一个刷题脉络，让大家能够在有限的时间内，通过面试算法题目的练习，提高算法能力，更加有效地准备面试~
