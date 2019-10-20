@@ -146,6 +146,10 @@
 * [题目：二分查找算法](https://github.com/guokaide/algorithm/blob/master/questions/questions.md#1-%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%AE%97%E6%B3%95)
 
 * [测试：二分查找算法测试示例](https://github.com/guokaide/algorithm/blob/master/algorithms/src/array/BinarySearchTest.java)
+
+#### 2.刷题笔记
+
+* [戳我](../appendix/刷题笔记.md)
  
 ## 欢迎大家关注我的公众号： 【算法修炼笔记】
 
